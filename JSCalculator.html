@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Javascript: Calculator</title>
     <link rel="stylesheet" href="style.css">
+      
 </head>
 <body>
     <div class="calculator">
         <div class="functions">
             <div class="display">0</div>
-            <button class="reset">Clear</button>
+            <button id="reset" onclick="reset()">Clear</button>
             <button class="grid-minus">-</button>
             <button class="grid-plus">+</button>
             <button class="grid-mult">*</button>
@@ -26,7 +27,11 @@
             <button class="grid-1">1</button>
             <button class="grid-2">2</button>
             <button class="grid-3">3</button>
+            <button class="grid-dot">.</button>
+            <button class="grid-zero">0</button>
         </div>
     </div>
+    
+<script src="JSfunctions.js"></script>  
 </body>
 </html>
